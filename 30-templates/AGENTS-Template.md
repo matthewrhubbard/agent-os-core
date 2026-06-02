@@ -196,17 +196,24 @@ Use the most targeted command that gives confidence.
 1. Read the project overview and source-of-truth files.
 2. Confirm the actual task and constraints.
 3. Check whether the personal OS is enough or whether a project-specific override applies.
-4. Make the smallest useful change that solves the problem.
-5. Validate with targeted commands first.
-6. Summarize what changed, risks, and next steps clearly.
+4. For ticket or story implementation work, start from a fresh current main branch unless the user explicitly asks to continue an existing branch.
+5. If unrelated local edits exist, preserve them separately before switching branches, then keep them out of the ticket branch unless they are part of the requested change.
+6. If the current branch has already been merged or its upstream is gone, do not keep building there. Move to a new branch from current main.
+7. Make the smallest useful change that solves the problem.
+8. Validate with targeted commands first.
+9. Summarize what changed, risks, and next steps clearly.
 
 ## Decision And Escalation Rules
 
 - Ask before destructive or high-blast-radius changes.
 - Ask before adding major dependencies or changing architecture significantly.
 - Ask when project files conflict or when requirements are materially unclear.
-- Before substantial work, consider whether the current model is appropriate for the task. If the task appears overpowered or underpowered for the current model, suggest a better fit before proceeding.
-- Skip the model-fit check for simple, low-stakes questions where the overhead would outweigh the benefit.
+- Before asking a technical question, explain in plain English what decision is needed, why it matters now, and what each option changes.
+- Avoid unexplained jargon. If a specialized term is useful, define it inline and pair it with a concrete example or plain-English translation.
+- Do not ask the user to choose an implementation detail when a reasonable stage-appropriate default is low risk; state the assumption and proceed.
+- Before meaningful work, check whether the current model and settings are obviously mismatched to the task. If they are materially overpowered, underpowered, unnecessarily expensive, or unnecessarily slow, say so directly and recommend a better fit before proceeding.
+- For simple, low-stakes tasks, prefer the lightest model and settings that can reliably do the work.
+- If the user stays on the mismatched model or settings after the warning, proceed without repeated debate, but keep the tradeoff explicit.
 - When asking the user to choose, provide `2-3` options, brief pros and cons, and a recommended default only when the choice has meaningful tradeoffs or ambiguity.
 - Proceed with stated assumptions when the risk is low and the benefit of momentum is high.
 
