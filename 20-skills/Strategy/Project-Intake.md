@@ -36,6 +36,7 @@ Before using this skill:
 - Make assumptions visible
 - Define success in observable terms
 - Clarify what is out of scope
+- Right-size the starting increment before recommending execution
 
 ## Workflow
 
@@ -83,7 +84,15 @@ State:
 - What is out of scope
 - What can wait until later
 
-## 6. Recommend A Starting Plan
+## 6. Right-Size The Starting Increment
+
+Before recommending execution, check whether the work spans multiple outcomes, multiple subsystems, unclear acceptance criteria, or more than one focused work session.
+
+If it is too large, suggest a smaller sequence with one recommended first increment and follow-on increments in order. Explain what each increment should prove or unlock.
+
+Default to suggesting the split, not rewriting plans or creating Linear issues automatically unless the user approves.
+
+## 7. Recommend A Starting Plan
 
 End with:
 
@@ -101,8 +110,9 @@ End with:
 5. Constraints
 6. Success criteria
 7. Scope and non-goals
-8. Risks and open questions
-9. Recommended next steps
+8. Starting increment and sequence
+9. Risks and open questions
+10. Recommended next steps
 
 ## Quality Bar
 
@@ -111,6 +121,7 @@ A good project intake:
 - Frames the real problem clearly
 - Makes constraints visible
 - Defines success concretely
+- Identifies when the starting plan should be split into smaller increments
 - Reduces ambiguity before execution
 - Prevents avoidable rework later
 
@@ -119,4 +130,5 @@ A good project intake:
 - Treating a request as a fully defined project
 - Skipping constraints
 - Starting execution before naming success criteria
+- Treating an oversized plan as one practical increment
 - Letting scope expand without intent

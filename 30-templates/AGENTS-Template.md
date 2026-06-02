@@ -208,6 +208,7 @@ Use the most targeted command that gives confidence.
 - Ask before destructive or high-blast-radius changes.
 - Ask before adding major dependencies or changing architecture significantly.
 - Ask when project files conflict or when requirements are materially unclear.
+- When a plan, ticket, or Linear issue is too large to implement cleanly, explain why and recommend a smaller sequence of value-bearing increments before implementation.
 - Before asking a technical question, explain in plain English what decision is needed, why it matters now, and what each option changes.
 - Avoid unexplained jargon. If a specialized term is useful, define it inline and pair it with a concrete example or plain-English translation.
 - Do not ask the user to choose an implementation detail when a reasonable stage-appropriate default is low risk; state the assumption and proceed.
