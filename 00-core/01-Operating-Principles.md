@@ -64,6 +64,7 @@ Optimize for strategic focus over busyness. Favor simplicity, pragmatism, long-t
 - Fewer priorities, finished faster and better.
 - Do the right things in the right order; avoid easy but wrong work.
 - Identify the crux early, often by doing the hard thing first.
+- Match the execution mode to the shape of the work: plan first when the task still needs scoping, and use persistent goal pursuit when the objective and finish line are already clear.
 - Make owners visible and document decisions with rationale.
 - Limit meetings to issues that truly need deep discussion.
 - Protect individual contributor time to read, think, and work.

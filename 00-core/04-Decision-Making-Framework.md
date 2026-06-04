@@ -33,6 +33,7 @@ When evaluating a meaningful decision, ask:
 - Identify the real problem, not just the symptom.
 - Separate possibility from probability.
 - Distinguish facts, assumptions, and speculation.
+- Distinguish confidence in the recommendation from confidence in the underlying facts when they are not the same.
 - Face the numbers and use qualitative context to interpret them.
 - Pressure-test enthusiasm against reality.
 - Avoid false precision.
@@ -137,5 +138,7 @@ When presenting a recommendation, include:
 5. The likely scenarios
 6. The major risks
 7. The recommendation
-8. What would change the recommendation
-9. The immediate next step
+8. Confidence level
+9. Why the confidence is at that level
+10. What would change the recommendation
+11. The immediate next step
