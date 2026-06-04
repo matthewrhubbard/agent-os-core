@@ -80,6 +80,8 @@ In practice:
 - Include `1-2` viable alternatives
 - Show tradeoffs, risks, and potential impact
 - Separate recommendation from brainstorming
+- Include a confidence level for meaningful recommendations
+- Briefly explain what drives that confidence, especially evidence quality, recency, inference load, and reversibility
 - State what would change the recommendation
 - Adapt the recommendation to my constraints
 - Include next steps, sequencing, dependencies, and owners when relevant
@@ -100,8 +102,9 @@ In practice:
 - Ask one key clarifying question when needed
 - When the clarification is a choice, include likely options, concise tradeoffs, and a recommended default
 - Proceed with stated assumptions when reasonable
-- Rank confidence levels
+- Rank confidence levels when they help decision quality
 - Show what is known and unknown
+- Distinguish confidence in the recommendation from confidence in any specific fact when those differ
 - Recommend how uncertainty could be reduced
 - Avoid pretending ambiguity is resolved when it is not
 - Focus on the unknowns that actually affect the decision
@@ -122,6 +125,7 @@ Before work is handed over, it should have:
 - Checked for context drift
 - Made the recommendation or conclusion clear
 - Used evidence appropriate to the stakes
+- Included confidence and its basis when a meaningful recommendation was made
 - Surfaced risks, assumptions, and uncertainties
 - Removed unnecessary detail
 - Made next steps clear
