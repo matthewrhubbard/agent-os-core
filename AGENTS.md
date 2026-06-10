@@ -38,6 +38,7 @@ This folder is designed to support a shared core plus an optional private overla
 - Prefer improving canonical files over creating duplicate variants.
 - Add a new file only when the content is truly a distinct durable artifact.
 - If a file mixes reusable logic with sensitive live context, separate the context rather than cloning the whole document.
+- Ask follow-up questions one at a time. Do not bundle several questions into one paragraph, bullet list, numbered list, or "quick questions" section.
 - Before committing or pushing Agent OS changes, recommend the Git path: direct to main only for tiny low-risk local or documentation fixes; branch + PR for behavior-changing, structural, shared, public, or higher-risk changes. Explain the reason briefly.
 
 ## Validation Rule

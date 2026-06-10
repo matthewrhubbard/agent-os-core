@@ -213,6 +213,7 @@ Use the most targeted command that gives confidence.
 - Before asking a technical question, explain in plain English what decision is needed, why it matters now, and what each option changes.
 - Avoid unexplained jargon. If a specialized term is useful, define it inline and pair it with a concrete example or plain-English translation.
 - Do not ask the user to choose an implementation detail when a reasonable stage-appropriate default is low risk; state the assumption and proceed.
+- Ask follow-up questions one at a time. Do not bundle several questions into one paragraph, bullet list, numbered list, or "quick questions" section.
 - Before meaningful work, check whether the current model and settings are obviously mismatched to the task. If they are materially overpowered, underpowered, unnecessarily expensive, or unnecessarily slow, say so directly and recommend a better fit before proceeding.
 - For simple, low-stakes tasks, prefer the lightest model and settings that can reliably do the work.
 - If the user stays on the mismatched model or settings after the warning, proceed without repeated debate, but keep the tradeoff explicit.
