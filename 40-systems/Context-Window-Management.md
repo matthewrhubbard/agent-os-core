@@ -70,6 +70,52 @@ Move information into a durable file when:
 - the chat has produced a stable artifact
 - the same context would otherwise need to be restated repeatedly
 
+Keep information in chat when:
+
+- it is a one-off answer, prompt, list, or draft that is easy to regenerate
+- it is useful in the moment but unlikely to become source-of-truth
+- it is not expected to be updated, linked, or reused later
+- saving it would create document sprawl without meaningful retrieval value
+
+## Durable Artifact Gate
+
+Before creating a new file, ask:
+
+1. Is this meant to become source-of-truth?
+2. Will it likely be reused across future chats or work sessions?
+3. Will it be updated, referenced, or linked later?
+4. Would not saving it create real repetition or context loss?
+
+If the answer is `no` to most of these, keep it in chat.
+
+Default:
+
+- one-off prompts stay in chat
+- quick recommendations stay in chat
+- ephemeral brainstorms stay in chat
+- stable project context, decisions, reusable workflows, or evolving artifacts go into files
+
+## Disposable Artifact Cleanup
+
+When a file was useful only during planning, diagnosis, exploration, or handoff, treat it as disposable once the work has been executed or the decision has been absorbed into a better source of truth.
+
+Common disposable artifacts:
+
+- cleanup assessments
+- temporary implementation plans
+- one-off audit notes
+- intermediate comparison docs
+- scratch research summaries
+- superseded drafts that are not the record of decision
+
+Before ending meaningful work, check whether any files created or touched during the thread are now obsolete. If a file no longer has retrieval, audit, or source-of-truth value:
+
+1. Delete it when it is clearly temporary, created in the current work, and not referenced by live docs or workflows.
+2. Move the durable learning into the appropriate source-of-truth file when only a small part still matters.
+3. Ask before deleting when the file predates the current work, may be user-authored, is referenced elsewhere, or deletion could remove useful history.
+
+Do not create a second cleanup document just to say cleanup is or is not needed. Report the cleanup decision in chat unless it needs to update a durable workflow.
+
 Common destinations:
 
 - core files
@@ -133,6 +179,7 @@ Prefer:
 - inbox or change files for proposed system improvements
 
 Do not rely on chat history as the long-term memory layer when a file would be better.
+Do not create a file when chat is sufficient and the content is unlikely to earn durable value.
 
 ## Practical Workflow
 

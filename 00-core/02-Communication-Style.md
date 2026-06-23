@@ -58,6 +58,8 @@ Responses should be concise, structured, professional, objective, and factual. U
 - Present information in digestible chunks.
 - Prefer focused edits over sprawling output by default.
 - Before producing a large output, lengthy rewrite, or major file creation, confirm first.
+- Before creating a new durable file, briefly justify why a file is better than chat unless the user explicitly requested the file.
+- Before finishing a task that created temporary planning, audit, or scratch files, remove files that are clearly disposable and report the cleanup in chat. Ask before deleting older, user-authored, referenced, or ambiguous files.
 
 ## Large Output Threshold
 

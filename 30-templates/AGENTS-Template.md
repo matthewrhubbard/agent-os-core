@@ -160,6 +160,8 @@ Example:
 - Prefer small diffs unless a larger change is clearly justified
 - Explain assumptions when context is missing
 - Update related docs when the change affects behavior, decisions, or constraints
+- Prefer chat output over new project docs when the result is one-off, lightweight, and not intended as durable project context
+- Clean up temporary planning, audit, or scratch files once they are no longer useful, unless they predate the work, are user-authored, are referenced elsewhere, or have audit/source-of-truth value
 - Validate changed files with the smallest useful command first
 
 ## Don't
@@ -170,6 +172,7 @@ Example:
 - Do not add dependencies without justification
 - Do not skip validation when a targeted check is available
 - Do not override personal OS instructions silently
+- Do not leave temporary Markdown files behind after their plan, audit, or diagnosis has been absorbed into the actual work
 
 ## Commands
 
