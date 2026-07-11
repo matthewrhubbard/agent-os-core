@@ -64,17 +64,9 @@ Check:
 - Whether they cover the important paths
 - Whether edge cases and failure modes are exercised
 
-## Severity Rubric
-
-Use a simple priority system so findings are easier to act on:
-
-- `P1`: Must fix before merge, ship, or rollout. Correctness, security, data loss, major regression, or clearly unsafe behavior.
-- `P2`: Should fix soon. Important reliability, maintainability, or coverage issue that increases real risk but is not immediately catastrophic.
-- `P3`: Nice to fix. Cleanup, clarity, or lower-risk improvement that does not materially change release safety.
-
 ## Output Structure
 
-1. Findings ordered by severity, labeled `P1`, `P2`, or `P3`
+1. Findings ordered by severity
 2. Risks or open questions
 3. Brief change summary only if useful
 
@@ -86,7 +78,6 @@ A strong code review:
 - Ties findings to user or system behavior
 - Explains why a problem matters
 - Notes missing tests when relevant
-- Uses severity consistently so triage is faster
 
 ## Common Failure Modes
 

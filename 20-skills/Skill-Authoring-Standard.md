@@ -6,7 +6,7 @@ Use this file as the default standard for creating new portable skills in the Ag
 
 Skills should be reusable across projects, tools, and contexts without blindly carrying over stale assumptions. A skill should help execute a kind of work well, not accidentally mix contexts.
 
-Canonical skill content should live in one place: either in this Agent OS-local skill library or in an explicitly referenced external skill library. Do not keep hand-maintained duplicate copies for each AI harness.
+Canonical skill content should live here in the Agent OS, not in separate hand-maintained copies for each AI harness.
 
 ## What A Skill Is
 
@@ -28,10 +28,6 @@ A skill is not:
 - A platform-specific prompt wrapper
 - A generic brainstorm with no workflow
 - A duplicate Claude-only or Codex-only rewrite of the same operating procedure
-
-Create a new skill only when the workflow is likely to recur and a stable procedure would improve quality, consistency, or speed across projects or chats.
-
-Do not create a skill for one-off tasks, lightweight requests, or work that is better handled by a project wrapper, a role file, or direct execution.
 
 ## Default Skill Structure
 
@@ -79,7 +75,7 @@ This does not solve all context drift. It does reduce obvious cross-project or c
 
 ## Canonical Source Rule
 
-- The durable skill body should live once, either in `20-skills/` or in a named external skill library
+- The durable skill body should live once in `20-skills/`
 - Harness-specific files should adapt the skill, not re-express it from scratch
 - Do not maintain parallel copies of the same skill for Claude, Codex, Cursor, or other tools unless the workflow is materially different
 - If a tool needs special invocation syntax, file references, or formatting, keep that logic in a thin wrapper or manifest
