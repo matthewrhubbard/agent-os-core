@@ -8,7 +8,6 @@ This skill helps draft emails that match the relationship, context, and ask inst
 
 Related files:
 - `../../00-core/02-Communication-Style.md`
-- `../../15-people/People-Index.md`
 - `Networking-Outreach.md` when drafting networking, introduction, or relationship-building emails
 
 ## Context Check
