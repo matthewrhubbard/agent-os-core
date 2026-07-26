@@ -161,6 +161,9 @@ Example:
 - Explain assumptions when context is missing
 - Update related docs when the change affects behavior, decisions, or constraints
 - Validate changed files with the smallest useful command first
+- When drafting copy on the user's behalf, default to plain, factual, non-self-promotional language unless the project explicitly calls for a different tone
+- Use common words when they preserve the meaning. Replace avoidable five-dollar words such as `substrate`, `leverage`, `operationalize`, `ecosystem`, `inflection`, and `posture`, unless the exact term is necessary and explained.
+- Spell out every acronym, abbreviation, and initialism on first use in body text using `Full Term ("ACRONYM")`, then use the short form. If a durable document is acronym-heavy, include a compact `Acronyms Used` list.
 
 ## Don't
 
@@ -170,6 +173,9 @@ Example:
 - Do not add dependencies without justification
 - Do not skip validation when a targeted check is available
 - Do not override personal OS instructions silently
+- Do not drift into consultant-speak, executive-branding language, or inflated positioning when writing in the user's voice
+- Do not make the reader learn unnecessary vocabulary to understand the work
+- Do not use acronyms in body text before spelling them out, except in URLs, file paths, tickers, product names, headings, short labels, or compact metadata
 
 ## Commands
 
@@ -213,6 +219,7 @@ Use the most targeted command that gives confidence.
 - Before asking a technical question, explain in plain English what decision is needed, why it matters now, and what each option changes.
 - Avoid unexplained jargon. If a specialized term is useful, define it inline and pair it with a concrete example or plain-English translation.
 - Do not ask the user to choose an implementation detail when a reasonable stage-appropriate default is low risk; state the assumption and proceed.
+- Ask follow-up questions one at a time. Do not bundle several questions into one paragraph, bullet list, numbered list, or "quick questions" section.
 - Before meaningful work, check whether the current model and settings are obviously mismatched to the task. If they are materially overpowered, underpowered, unnecessarily expensive, or unnecessarily slow, say so directly and recommend a better fit before proceeding.
 - For simple, low-stakes tasks, prefer the lightest model and settings that can reliably do the work.
 - If the user stays on the mismatched model or settings after the warning, proceed without repeated debate, but keep the tradeoff explicit.
