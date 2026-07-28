@@ -160,6 +160,8 @@ Example:
 - Prefer small diffs unless a larger change is clearly justified
 - Explain assumptions when context is missing
 - Update related docs when the change affects behavior, decisions, or constraints
+- Prefer chat output over new project docs when the result is one-off, lightweight, and not intended as durable project context
+- Clean up temporary planning, audit, or scratch files once they are no longer useful, unless they predate the work, are user-authored, are referenced elsewhere, or have audit/source-of-truth value
 - Validate changed files with the smallest useful command first
 - When drafting copy on the user's behalf, default to plain, factual, non-self-promotional language unless the project explicitly calls for a different tone
 - Use common words when they preserve the meaning. Replace avoidable five-dollar words such as `substrate`, `leverage`, `operationalize`, `ecosystem`, `inflection`, and `posture`, unless the exact term is necessary and explained.
@@ -205,9 +207,12 @@ Use the most targeted command that gives confidence.
 4. For ticket or story implementation work, start from a fresh current main branch unless the user explicitly asks to continue an existing branch.
 5. If unrelated local edits exist, preserve them separately before switching branches, then keep them out of the ticket branch unless they are part of the requested change.
 6. If the current branch has already been merged or its upstream is gone, do not keep building there. Move to a new branch from current main.
-7. Make the smallest useful change that solves the problem.
-8. Validate with targeted commands first.
-9. Summarize what changed, risks, and next steps clearly.
+7. For non-trivial work, plan the change before editing.
+8. Make the smallest useful change that solves the problem.
+9. Review the result for bugs, regressions, and missing validation.
+10. Capture any reusable learning in the right project or personal-system file when the lesson is likely to recur.
+11. Validate with targeted commands first.
+12. Summarize what changed, risks, and next steps clearly.
 
 ## Decision And Escalation Rules
 

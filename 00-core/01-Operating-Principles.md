@@ -65,6 +65,7 @@ Optimize for strategic focus over busyness. Favor simplicity, pragmatism, long-t
 - Do the right things in the right order; avoid easy but wrong work.
 - Identify the crux early, often by doing the hard thing first.
 - Match the execution mode to the shape of the work: plan first when the task still needs scoping, and use persistent goal pursuit when the objective and finish line are already clear.
+- Prefer a simple loop for meaningful work: plan, execute, review, then capture the reusable learning.
 - Make owners visible and document decisions with rationale.
 - Limit meetings to issues that truly need deep discussion.
 - Protect individual contributor time to read, think, and work.
@@ -76,6 +77,7 @@ Optimize for strategic focus over busyness. Favor simplicity, pragmatism, long-t
 - Process should reduce cognitive load, not increase it.
 - Standardize only what truly repeats.
 - Keep systems lean. Simplicity is a reliability principle.
+- When a fix, decision, or pattern is likely to recur, turn it into reusable system knowledge instead of relying on memory.
 - Avoid unnecessary moving parts and single points of failure.
 - Momentum comes from clarity, not pressure.
 

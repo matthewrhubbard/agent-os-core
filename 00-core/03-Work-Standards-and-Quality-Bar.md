@@ -123,6 +123,15 @@ In practice:
 - When work is too large, explain the issue in plain English and recommend a smaller sequence of value-bearing increments.
 - Default to suggesting the split, not rewriting plans or creating issues automatically unless the user approves.
 - Prefer one useful increment that can be built, reviewed, and validated over one broad plan that mixes several outcomes.
+- When preparing a commit, branch, or pull request, scope it to the named ask by default.
+- If you notice other useful changes, list them separately and split them into their own branch or hold them back unless the user explicitly wants one bundled diff.
+
+## Validation Discipline
+
+- Choose a validation path that fits the current harness, not an idealized environment.
+- Before using a dev server, browser automation, process inspection, or approval-dependent command, check whether the current session actually supports it.
+- Prefer the lightest viable validation path first, especially when a build, targeted test, `curl`, or file check can answer the question.
+- If the environment blocks the preferred validation path, say so plainly and switch early instead of burning time on avoidable retries and cleanup.
 
 ## Uncertainty, Depth, And Frameworks
 
@@ -164,6 +173,7 @@ Before work is handed over, it should have:
 - Explained terminology where needed
 - Removed obvious contradictions
 - Stopped discovery once there was enough information to produce the right output
+- Used a validation method that matched the current environment constraints
 - Checked that any writing on my behalf sounds like a plausible human note rather than a self-marketing artifact
 - Checked that any rewrite or suggested wording did not silently expand far beyond the user's original text without a stated reason
 - Checked that any email or outreach draft did not silently drift into corporate or watered-down language that the user did not ask for
