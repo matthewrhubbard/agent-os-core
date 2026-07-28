@@ -42,6 +42,10 @@ Use this structure unless the relationship clearly calls for something else:
 - Use admiration language only when it is specific and true.
 - Avoid defensive disclaimers about what the sender is not asking for unless necessary.
 - Make the next step easy to accept or ignore without pressure.
+- Do not let `professional` drift into formal, watered-down, or generic business-email language.
+- Prefer plain openings over filler like `I wanted to reach out` or `I hope this finds you well`.
+- If a sentence sounds like it came from a recruiting template, a sales cadence, or a networking playbook, rewrite it in normal human language.
+- Keep the note slightly specific rather than broadly polished.
 
 ## Useful Patterns
 
@@ -90,6 +94,7 @@ Before sending, check whether the draft:
 - Avoids fake learning questions.
 - Avoids broad praise and abstract market language.
 - Can be read quickly by a busy operator.
+- Still sounds like something the sender would actually send, not a cleaned-up professional approximation.
 
 If the note sounds bland after removing jargon, sharpen the concrete point of relevance. Do not add polish, adjectives, or extra background.
 

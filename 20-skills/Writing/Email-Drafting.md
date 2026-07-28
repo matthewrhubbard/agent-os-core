@@ -33,6 +33,19 @@ Before using this skill:
 - Make the ask specific
 - Respect the reader's time
 - Do not bury the action needed
+- Default to plain professional language, not formal business-language filler
+- Preserve the sender's natural bluntness or warmth unless the audience clearly requires more formality
+
+## Anti-Formality Checks
+
+Before sending a draft, remove or justify:
+
+- Opening filler such as `I hope this finds you well` or `I wanted to reach out`
+- Corporate softeners such as `just`, `perhaps`, `potentially`, `if helpful`, or `if it makes sense` when the sentence is stronger without them
+- Generic courtesy lines that do not change the relationship or outcome
+- Abstract professional phrasing where a plain sentence would do the job faster
+
+If the draft sounds bland after cleanup, sharpen the concrete point or ask. Do not make it sound more official.
 
 ## Workflow
 
@@ -74,3 +87,4 @@ A strong email draft:
 - Overexplaining
 - Hiding the ask
 - Using the wrong tone for the relationship
+- Sounding like a generic corporate email rather than a real note from the sender
